@@ -6,16 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'StreamsBolt',
+  // @ts-ignore
+title: 'StreamsBolt',
   tagline: 'Welcome to StreamsBolt',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-<<<<<<< HEAD
   url: 'https://streamsbolt.github.io',
-=======
-  url: 'https://streamsbolt.github.io/',
->>>>>>> c3eb1aa62d6f26834c95992b739eb7b8b24d0719
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
