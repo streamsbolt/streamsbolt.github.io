@@ -11,7 +11,11 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
+<<<<<<< HEAD
   url: 'https://streamsbolt.github.io',
+=======
+  url: 'https://streamsbolt.github.io/',
+>>>>>>> c3eb1aa62d6f26834c95992b739eb7b8b24d0719
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -23,7 +27,8 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
+  deploymentBranch: 'github_pages',
+  trailingSlash: false,
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
