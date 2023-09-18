@@ -58,6 +58,15 @@ title: 'StreamsBolt',
         },
       }),
     ],
+    [
+      'redocusaurus',
+      {
+        specs: [{
+          route: '/api/',
+          spec: 'https://redocly.github.io/redoc/openapi.yaml',
+        }],
+      }
+    ],
   ],
 
   themeConfig:
